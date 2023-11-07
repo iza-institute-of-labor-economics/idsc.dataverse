@@ -444,7 +444,6 @@ class API(object):
         url = self.host + \
             "/api/datasets/:persistentId/actions/:publish?" + \
             up.urlencode({"persistentId": pid, "type": "major"})
-        #print(url)
 
         headers = {"X-Dataverse-key": self.token}
         response = requests.post(url, headers=headers)
