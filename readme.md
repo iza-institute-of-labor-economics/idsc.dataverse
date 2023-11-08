@@ -25,7 +25,7 @@ myDV.createDataverse(name="Nikos' Repository",
         alias="nikos", 
         dataverseContacts="nikos@iza.org,askitas@iza.org",
         affiliation = "IZA - Institute of Labor Economics",
-        description = "Metadata, Data and Code repository from Nikos Askitas's",
+        description = "Metadata, Data and Code repository of Nikos Askitas",
         dataverseType = "RESEARCHERS",
         parent = "G2LM-LIC"
         
