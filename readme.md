@@ -1,10 +1,10 @@
-## idsc.dataverse.api
+## idsc.dataverse
 
 **About**
 
 This module reads metadata and files of datasets from a dataverse ```dataverse.example1.com``` and writes them into ```~/.idsc/dataverse/api/dataverse.example1.com``` organized in directories ```PID_type/prefix/suffix```, where PID_type is one of: hdl, doi or ark. It can then ''export'' the local copy of the dataverse from ```~/.idsc/dataverse/api/dataverse.example1.com``` to ```~/.idsc/.cache/dataverse.example2.com``` so that one can upload them to ```dataverse.example2.com```. See the **migrate.md** file for copying all datasets from one dataverse to another. It can also delete and publish datasets as well as modify the PID of a dataset for when you e.g. are not on datacite etc. It can also create, delete and publish dataverses.
 
-The code in the *idsc.dataverse.api* was written while learning the Dataverse search and native APIs. It grew in an attempt to quickly learn how to program the API, understand dataverse itself, fix issues particular to our dataverse instance and do necessary dataverse chores aimed at shortening time to deployment. The code is in a very early stage and does not attempt a comprehensive python implementation of the various Dataverse APIs (as e.g. https://github.com/IQSS/dataverse-client-python does). It is placed here in the hope that others might need to do similar chores. 
+The code in the *idsc.dataverse* was written while learning the Dataverse search and native APIs. It grew in an attempt to quickly learn how to program the API, understand dataverse itself, fix issues particular to our dataverse instance and do necessary dataverse chores aimed at shortening time to deployment. The code is in a very early stage and does not attempt a comprehensive python implementation of the various Dataverse APIs (as e.g. https://github.com/IQSS/dataverse-client-python does). It is placed here in the hope that others might need to do similar chores. 
 
 **Basic Use**
 
